@@ -1,0 +1,11 @@
+series,crystal,electrode,n,tmin,tmax,slope,Ec_inf,A_MVnm,best,w_constant,w_power_free,w_JKD_-2/3,w_dead_layer
+"Ghiasabadi Farahani et al., ACS Appl. Electron. Mater. 2025, 7, 6628 | Pt/Y:HfO2/LSMO/STO(001)",epitaxial,Oxide bottom (LSMO/LNO/ITO),9,5.3,108.0,-0.287,1.3,9.85,power_free,0.001,0.988,0.0,0.012
+"Ghiasabadi Farahani et al., ACS Appl. Electron. Mater. 2025, 7, 6628 | Pt/Y:HfO2/LSMO/STO(110)",epitaxial,Oxide bottom (LSMO/LNO/ITO),9,5.3,108.0,-0.267,1.49,10.17,power_free,0.001,0.974,0.0,0.025
+"Lyu et al., ACS Appl. Electron. Mater. 2019, 1, 220 | Pt/HZO/LSMO/STO(001)",epitaxial,Oxide bottom (LSMO/LNO/ITO),6,4.6,36.8,-0.601,0.71,14.78,JKD_-2/3,0.0,0.296,0.702,0.002
+"Lyu et al., Nanoscale 2020, 12, 11280 | Pt/HZO/LSMO/LNO/CeO2/YSZ/Si(001)",epitaxial,Oxide bottom (LSMO/LNO/ITO),6,4.6,18.4,-0.63,0.94,15.36,JKD_-2/3,0.0,0.01,0.987,0.003
+"Materano et al., Appl. Phys. Lett. 2020, 117, 262904 | Ge:HfO2 (PVD)",polycrystalline,Not reported,5,6.0,224.0,-0.162,1.08,6.26,constant,0.856,0.001,0.005,0.137
+"Materano et al., Appl. Phys. Lett. 2020, 117, 262904 | TiN/HZO/TiN",polycrystalline,Nitride/W symmetric,6,6.9,30.0,-0.534,0.85,13.89,JKD_-2/3,0.002,0.031,0.888,0.078
+"Materano et al., Appl. Phys. Lett. 2020, 117, 262904 | TiN/La:HfO2/TiN",polycrystalline,Nitride/W symmetric,6,5.0,21.5,-0.352,1.68,8.71,power_free,0.074,0.675,0.136,0.114
+"Materano et al., Appl. Phys. Lett. 2020, 117, 262904 | Y:HfO2 (PVD)",polycrystalline,Not reported,7,5.5,726.0,-0.052,1.39,1.86,power_free,0.382,0.474,0.0,0.144
+"Song et al., J. Mater. Chem. C 2021, 9, 12224 | Pt/La:HfO2/LSMO/STO(001)",epitaxial,Oxide bottom (LSMO/LNO/ITO),4,4.5,17.5,-0.551,1.29,14.74,JKD_-2/3,0.006,0.0,0.994,0.0
+"Song et al., J. Mater. Chem. C 2021, 9, 12224 | Pt/La:HfO2/LSMO/STO/Si(001)",epitaxial,Oxide bottom (LSMO/LNO/ITO),4,4.5,17.5,-0.444,1.5,10.63,JKD_-2/3,0.068,0.0,0.932,0.0

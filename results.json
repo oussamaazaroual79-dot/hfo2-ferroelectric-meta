@@ -1,0 +1,889 @@
+{
+ "n_total": 237,
+ "n_usable": 219,
+ "n_implausible": 11,
+ "n_unsaturated": 7,
+ "n_studies": 24,
+ "n_with_Ec": 158,
+ "n_figure_digitized": 141,
+ "by_crystal": {
+  "epitaxial": {
+   "Pr": [
+    17.8,
+    11.6,
+    22.3,
+    71
+   ],
+   "Ec": [
+    2.52,
+    1.97,
+    3.24,
+    62
+   ],
+   "t": [
+    9.2,
+    8.5,
+    17.5,
+    64
+   ]
+  },
+  "polycrystalline": {
+   "Pr": [
+    12.5,
+    6.78,
+    19.9,
+    123
+   ],
+   "Ec": [
+    1.36,
+    1.11,
+    1.72,
+    96
+   ],
+   "t": [
+    12.0,
+    10.0,
+    30.0,
+    136
+   ]
+  }
+ },
+ "by_dopant": {
+  "Al": {
+   "Pr": [
+    15.75,
+    12.38,
+    19.12,
+    6
+   ],
+   "Ec": [
+    1.0,
+    0.9,
+    1.0,
+    5
+   ],
+   "n_studies": 2
+  },
+  "La": {
+   "Pr": [
+    18.0,
+    10.0,
+    25.0,
+    45
+   ],
+   "Ec": [
+    2.21,
+    1.3,
+    3.22,
+    37
+   ],
+   "n_studies": 7
+  },
+  "Other": {
+   "Pr": [
+    10.8,
+    7.45,
+    13.23,
+    22
+   ],
+   "Ec": [
+    1.88,
+    1.24,
+    2.0,
+    22
+   ],
+   "n_studies": 5
+  },
+  "Si": {
+   "Pr": [
+    6.5,
+    3.0,
+    10.3,
+    28
+   ],
+   "Ec": [
+    1.2,
+    1.0,
+    1.48,
+    6
+   ],
+   "n_studies": 3
+  },
+  "Y": {
+   "Pr": [
+    17.7,
+    12.62,
+    22.18,
+    26
+   ],
+   "Ec": [
+    1.65,
+    1.38,
+    2.26,
+    31
+   ],
+   "n_studies": 6
+  },
+  "Zr (HZO)": {
+   "Pr": [
+    17.0,
+    10.31,
+    20.38,
+    67
+   ],
+   "Ec": [
+    1.58,
+    1.12,
+    2.4,
+    57
+   ],
+   "n_studies": 14
+  }
+ },
+ "by_dep": {
+  "ALD": {
+   "Pr": [
+    15.55,
+    6.95,
+    20.89,
+    100
+   ],
+   "Ec": [
+    1.3,
+    1.0,
+    1.69,
+    70
+   ]
+  },
+  "CSD": {
+   "Pr": [
+    10.5,
+    6.9,
+    13.0,
+    9
+   ],
+   "Ec": [
+    1.5,
+    1.15,
+    2.0,
+    8
+   ]
+  },
+  "PLD": {
+   "Pr": [
+    17.8,
+    11.6,
+    22.3,
+    71
+   ],
+   "Ec": [
+    2.52,
+    1.97,
+    3.24,
+    62
+   ]
+  },
+  "Sputtering": {
+   "Pr": [
+    9.15,
+    6.64,
+    10.0,
+    14
+   ],
+   "Ec": [
+    1.43,
+    1.31,
+    1.72,
+    18
+   ]
+  }
+ },
+ "MW_Ec": 1.2926968280557507e-14,
+ "MW_Pr": 0.002027794877815561,
+ "KW_Pr_dopant_poly": 0.00022326406137127388,
+ "KW_Ec_dopant_poly": 0.09087403233080298,
+ "Ec_t_pooled": {
+  "epitaxial": {
+   "slope": -0.399,
+   "se": 0.035,
+   "r2": 0.708,
+   "p": 8.432231622932777e-16,
+   "n": 55,
+   "rho": -0.843,
+   "rho_p": 6.365375404302196e-16
+  },
+  "polycrystalline": {
+   "slope": -0.027,
+   "se": 0.037,
+   "r2": 0.006,
+   "p": 0.46976541298529073,
+   "n": 88,
+   "rho": 0.126,
+   "rho_p": 0.24202989202832406
+  }
+ },
+ "Ec_t_series": [
+  {
+   "series": "Ghiasabadi Farahani et al., ACS Appl. Electron. Mater. 2025, 7, 6628|Pt/Y:HfO2/LSMO/STO(001)|figures 4b, 5 (own data only)|800.0|7.0|",
+   "crystal": "epitaxial",
+   "dopant": "Y",
+   "n": 9,
+   "tmin": 5.3,
+   "tmax": 108.0,
+   "slope": -0.287,
+   "se": 0.039
+  },
+  {
+   "series": "Ghiasabadi Farahani et al., ACS Appl. Electron. Mater. 2025, 7, 6628|Pt/Y:HfO2/LSMO/STO(110)|figures 4b, 5 (own data only)|800.0|7.0|",
+   "crystal": "epitaxial",
+   "dopant": "Y",
+   "n": 9,
+   "tmin": 5.3,
+   "tmax": 108.0,
+   "slope": -0.267,
+   "se": 0.037
+  },
+  {
+   "series": "Lyu et al., ACS Appl. Electron. Mater. 2019, 1, 220|Pt/HZO/LSMO/STO(001)|figure 6b,d (Ec=Vc/t)|800.0|50.0|",
+   "crystal": "epitaxial",
+   "dopant": "Zr (HZO)",
+   "n": 6,
+   "tmin": 4.6,
+   "tmax": 36.8,
+   "slope": -0.601,
+   "se": 0.019
+  },
+  {
+   "series": "Lyu et al., Nanoscale 2020, 12, 11280|Pt/HZO/LSMO/LNO/CeO2/YSZ/Si(001)|figure 2c,d (own data only)|800.0|50.0|",
+   "crystal": "epitaxial",
+   "dopant": "Zr (HZO)",
+   "n": 6,
+   "tmin": 4.6,
+   "tmax": 18.4,
+   "slope": -0.63,
+   "se": 0.047
+  },
+  {
+   "series": "Materano et al., Appl. Phys. Lett. 2020, 117, 262904|Ge:HfO2 (PVD)|figure (compilation, colour-segmented digitization)|nan|nan|",
+   "crystal": "polycrystalline",
+   "dopant": "Other",
+   "n": 5,
+   "tmin": 6.0,
+   "tmax": 224.0,
+   "slope": -0.162,
+   "se": 0.053
+  },
+  {
+   "series": "Materano et al., Appl. Phys. Lett. 2020, 117, 262904|TiN/HZO/TiN|figure (compilation, colour-segmented digitization)|nan|50.0|",
+   "crystal": "polycrystalline",
+   "dopant": "Zr (HZO)",
+   "n": 6,
+   "tmin": 6.9,
+   "tmax": 30.0,
+   "slope": -0.534,
+   "se": 0.077
+  },
+  {
+   "series": "Materano et al., Appl. Phys. Lett. 2020, 117, 262904|TiN/La:HfO2/TiN|figure (compilation, colour-segmented digitization)|nan|nan|",
+   "crystal": "polycrystalline",
+   "dopant": "La",
+   "n": 6,
+   "tmin": 5.0,
+   "tmax": 21.5,
+   "slope": -0.352,
+   "se": 0.056
+  },
+  {
+   "series": "Materano et al., Appl. Phys. Lett. 2020, 117, 262904|Y:HfO2 (PVD)|figure (compilation, colour-segmented digitization)|nan|nan|",
+   "crystal": "polycrystalline",
+   "dopant": "Y",
+   "n": 7,
+   "tmin": 5.5,
+   "tmax": 726.0,
+   "slope": -0.052,
+   "se": 0.017
+  },
+  {
+   "series": "Song et al., J. Mater. Chem. C 2021, 9, 12224|Pt/La:HfO2/LSMO/STO(001)|figure 3c,d|800.0|2.0|",
+   "crystal": "epitaxial",
+   "dopant": "La",
+   "n": 4,
+   "tmin": 4.5,
+   "tmax": 17.5,
+   "slope": -0.551,
+   "se": 0.074
+  },
+  {
+   "series": "Song et al., J. Mater. Chem. C 2021, 9, 12224|Pt/La:HfO2/LSMO/STO/Si(001)|figure 3c,d|800.0|2.0|",
+   "crystal": "epitaxial",
+   "dopant": "La",
+   "n": 4,
+   "tmin": 4.5,
+   "tmax": 17.5,
+   "slope": -0.444,
+   "se": 0.051
+  }
+ ],
+ "FE_scaling": {
+  "epitaxial t<=50nm": {
+   "slope": -0.43,
+   "ci": [
+    -0.583,
+    -0.257
+   ],
+   "n_series": 6,
+   "n_films": 32,
+   "share_boot_below_minus_half": 0.221,
+   "contains_minus_half": true,
+   "contains_minus_two_thirds": false
+  },
+  "epitaxial all t": {
+   "slope": -0.351,
+   "ci": [
+    -0.587,
+    -0.289
+   ],
+   "n_series": 6,
+   "n_films": 38,
+   "share_boot_below_minus_half": 0.082,
+   "contains_minus_half": true,
+   "contains_minus_two_thirds": false
+  },
+  "epitaxial t>=30nm": {
+   "slope": -0.762,
+   "ci": [
+    -0.808,
+    -0.716
+   ],
+   "n_series": 2,
+   "n_films": 6,
+   "share_boot_below_minus_half": 1.0,
+   "contains_minus_half": false,
+   "contains_minus_two_thirds": false
+  },
+  "polycrystalline t<=50nm": {
+   "slope": -0.302,
+   "ci": [
+    -0.466,
+    -0.128
+   ],
+   "n_series": 4,
+   "n_films": 19,
+   "share_boot_below_minus_half": 0.003,
+   "contains_minus_half": false,
+   "contains_minus_two_thirds": false
+  },
+  "polycrystalline all t": {
+   "slope": -0.129,
+   "ci": [
+    -0.456,
+    -0.068
+   ],
+   "n_series": 4,
+   "n_films": 24,
+   "share_boot_below_minus_half": 0.003,
+   "contains_minus_half": false,
+   "contains_minus_two_thirds": false
+  },
+  "polycrystalline t>=30nm": {
+   "slope": -0.015,
+   "ci": [
+    -0.018,
+    -0.005
+   ],
+   "n_series": 2,
+   "n_films": 7,
+   "share_boot_below_minus_half": 0.0,
+   "contains_minus_half": false,
+   "contains_minus_two_thirds": false
+  }
+ },
+ "FE_slope_diff_epi_minus_poly_thin": {
+  "mean": -0.13,
+  "ci": [
+   -0.352,
+   0.105
+  ]
+ },
+ "FE_scaling_HZO": {
+  "epitaxial": {
+   "slope": -0.611,
+   "ci": [
+    -0.63,
+    -0.601
+   ],
+   "n_series": 2,
+   "n_films": 12,
+   "share_boot_below_minus_half": 1.0,
+   "contains_minus_half": false,
+   "contains_minus_two_thirds": false
+  },
+  "polycrystalline": null
+ },
+ "Ec_at_10nm_series": [
+  {
+   "series": "Ghiasabadi Farahani et al., ACS Appl. Electron. Mater. 2025, 7, 6628|Pt/Y:HfO2/LSMO/STO(001)|figures 4b, 5 (own data only)|800.0|7.0|",
+   "crystal": "epitaxial",
+   "Ec10": 2.41
+  },
+  {
+   "series": "Ghiasabadi Farahani et al., ACS Appl. Electron. Mater. 2025, 7, 6628|Pt/Y:HfO2/LSMO/STO(110)|figures 4b, 5 (own data only)|800.0|7.0|",
+   "crystal": "epitaxial",
+   "Ec10": 2.63
+  },
+  {
+   "series": "Lyu et al., ACS Appl. Electron. Mater. 2019, 1, 220|Pt/HZO/LSMO/STO(001)|figure 6b,d (Ec=Vc/t)|800.0|50.0|",
+   "crystal": "epitaxial",
+   "Ec10": 2.28
+  },
+  {
+   "series": "Lyu et al., Nanoscale 2020, 12, 11280|Pt/HZO/LSMO/LNO/CeO2/YSZ/Si(001)|figure 2c,d (own data only)|800.0|50.0|",
+   "crystal": "epitaxial",
+   "Ec10": 2.54
+  },
+  {
+   "series": "Materano et al., Appl. Phys. Lett. 2020, 117, 262904|Ge:HfO2 (PVD)|figure (compilation, colour-segmented digitization)|nan|nan|",
+   "crystal": "polycrystalline",
+   "Ec10": 1.7
+  },
+  {
+   "series": "Materano et al., Appl. Phys. Lett. 2020, 117, 262904|TiN/HZO/TiN|figure (compilation, colour-segmented digitization)|nan|50.0|",
+   "crystal": "polycrystalline",
+   "Ec10": 2.29
+  },
+  {
+   "series": "Materano et al., Appl. Phys. Lett. 2020, 117, 262904|TiN/La:HfO2/TiN|figure (compilation, colour-segmented digitization)|nan|nan|",
+   "crystal": "polycrystalline",
+   "Ec10": 2.63
+  },
+  {
+   "series": "Materano et al., Appl. Phys. Lett. 2020, 117, 262904|Y:HfO2 (PVD)|figure (compilation, colour-segmented digitization)|nan|nan|",
+   "crystal": "polycrystalline",
+   "Ec10": 1.62
+  },
+  {
+   "series": "Song et al., J. Mater. Chem. C 2021, 9, 12224|Pt/La:HfO2/LSMO/STO(001)|figure 3c,d|800.0|2.0|",
+   "crystal": "epitaxial",
+   "Ec10": 2.85
+  },
+  {
+   "series": "Song et al., J. Mater. Chem. C 2021, 9, 12224|Pt/La:HfO2/LSMO/STO/Si(001)|figure 3c,d|800.0|2.0|",
+   "crystal": "epitaxial",
+   "Ec10": 2.63
+  }
+ ],
+ "Ec_at_10nm_by_class": {
+  "epitaxial": [
+   2.58,
+   6
+  ],
+  "polycrystalline": [
+   2.0,
+   4
+  ]
+ },
+ "Pr_t_series": [
+  {
+   "series": "Ghiasabadi Farahani et al., ACS Appl. Electron. Mater. 2025, 7, 6628|Pt/Y:HfO2/LSMO/STO(001)|figures 4b, 5 (own data only)|800.0|7.0|",
+   "crystal": "epitaxial",
+   "dopant": "Y",
+   "n": 9,
+   "t_at_maxPr": 10.0,
+   "maxPr": 23.5,
+   "Pr_thickest": 7.8,
+   "t_thickest": 108.0,
+   "rho": -0.52
+  },
+  {
+   "series": "Ghiasabadi Farahani et al., ACS Appl. Electron. Mater. 2025, 7, 6628|Pt/Y:HfO2/LSMO/STO(110)|figures 4b, 5 (own data only)|800.0|7.0|",
+   "crystal": "epitaxial",
+   "dopant": "Y",
+   "n": 9,
+   "t_at_maxPr": 19.0,
+   "maxPr": 25.2,
+   "Pr_thickest": 7.1,
+   "t_thickest": 108.0,
+   "rho": -0.25
+  },
+  {
+   "series": "Lyu et al., ACS Appl. Electron. Mater. 2019, 1, 220|Pt/HZO/LSMO/STO(001)|figure 6b,d (Ec=Vc/t)|800.0|50.0|",
+   "crystal": "epitaxial",
+   "dopant": "Zr (HZO)",
+   "n": 6,
+   "t_at_maxPr": 6.9,
+   "maxPr": 23.8,
+   "Pr_thickest": 4.5,
+   "t_thickest": 36.8,
+   "rho": -0.83
+  },
+  {
+   "series": "Lyu et al., Nanoscale 2020, 12, 11280|Pt/HZO/LSMO/LNO/CeO2/YSZ/Si(001)|figure 2c,d (own data only)|800.0|50.0|",
+   "crystal": "epitaxial",
+   "dopant": "Zr (HZO)",
+   "n": 6,
+   "t_at_maxPr": 4.6,
+   "maxPr": 33.0,
+   "Pr_thickest": 9.7,
+   "t_thickest": 18.4,
+   "rho": -1.0
+  },
+  {
+   "series": "Richter et al., Adv. Electron. Mater. 2017, 3, 1700131|TiN/Si:HfO2/TiN|figure 9b|800.0|nan|",
+   "crystal": "polycrystalline",
+   "dopant": "Si",
+   "n": 5,
+   "t_at_maxPr": 11.0,
+   "maxPr": 10.9,
+   "Pr_thickest": 1.3,
+   "t_thickest": 60.0,
+   "rho": -0.4
+  },
+  {
+   "series": "Song et al., J. Mater. Chem. C 2021, 9, 12224|Pt/La:HfO2/LSMO/STO(001)|figure 3c,d|800.0|2.0|",
+   "crystal": "epitaxial",
+   "dopant": "La",
+   "n": 4,
+   "t_at_maxPr": 6.9,
+   "maxPr": 30.0,
+   "Pr_thickest": 10.0,
+   "t_thickest": 17.5,
+   "rho": -0.8
+  },
+  {
+   "series": "Song et al., J. Mater. Chem. C 2021, 9, 12224|Pt/La:HfO2/LSMO/STO/Si(001)|figure 3c,d|800.0|2.0|",
+   "crystal": "epitaxial",
+   "dopant": "La",
+   "n": 4,
+   "t_at_maxPr": 6.9,
+   "maxPr": 32.5,
+   "Pr_thickest": 12.0,
+   "t_thickest": 17.5,
+   "rho": -0.8
+  },
+  {
+   "series": "Yang et al., J. Semicond. 2023, 44, 053101|TiN/Zr:HfO2/TiN|review table|400.0|50.0|",
+   "crystal": "polycrystalline",
+   "dopant": "Zr (HZO)",
+   "n": 4,
+   "t_at_maxPr": 10.0,
+   "maxPr": 25.45,
+   "Pr_thickest": 16.05,
+   "t_thickest": 20.0,
+   "rho": 0.4
+  }
+ ],
+ "anneal_series": [
+  {
+   "series": "Lyu et al., ACS Appl. Electron. Mater. 2019, 1, 220|Pt/HZO/LSMO/STO(001)|9.2|50.0|",
+   "n": 5,
+   "Tmin": 650.0,
+   "Tmax": 825.0,
+   "rho": 1.0,
+   "dPr": 6.8,
+   "Ec_rho": 0.9
+  },
+  {
+   "series": "Richter et al., Adv. Electron. Mater. 2017, 3, 1700131|TiN/Si:HfO2/TiN|36.0|nan|22:1",
+   "n": 5,
+   "Tmin": 550.0,
+   "Tmax": 800.0,
+   "rho": 0.97,
+   "dPr": 8.8,
+   "Ec_rho": null
+  },
+  {
+   "series": "Schroeder et al., Inorg. Chem. 2018, 57, 2752|TiN/La:HfO2/TiN|12.0|10.0|",
+   "n": 5,
+   "Tmin": 550.0,
+   "Tmax": 1000.0,
+   "rho": 0.9,
+   "dPr": 11.0,
+   "Ec_rho": null
+  }
+ ],
+ "anneal_pooled": {
+  "k": 3,
+  "N": 15,
+  "rho": 0.985,
+  "ci": [
+   0.93,
+   0.997
+  ]
+ },
+ "conc_series": [
+  {
+   "series": "Liao et al., Materials 2023, 16, 3306|TaN/stacked HfO2-ZrO2/n+Si|10.0|500.0",
+   "dopant": "Zr (HZO)",
+   "crystal": "polycrystalline",
+   "n": 3,
+   "c_opt": 45.0,
+   "unit": "% Zr proportion",
+   "Pmax": 16.285,
+   "Pmin": 8.65,
+   "window_halfmax": [
+    30.0,
+    60.0
+   ]
+  },
+  {
+   "series": "Richter et al., Adv. Electron. Mater. 2017, 3, 1700131|TiN/Si:HfO2/TiN|36.0|800.0",
+   "dopant": "Si",
+   "crystal": "polycrystalline",
+   "n": 13,
+   "c_opt": "26:1",
+   "unit": "HfO2:SiO2 ALD cycle ratio",
+   "Pmax": 13.0,
+   "Pmin": 0.3,
+   "window_halfmax": null
+  },
+  {
+   "series": "Schroeder et al., Inorg. Chem. 2018, 57, 2752|TiN/La:HfO2/TiN|10.0|800.0",
+   "dopant": "La",
+   "crystal": "polycrystalline",
+   "n": 15,
+   "c_opt": 9.9,
+   "unit": "cat%",
+   "Pmax": 27.7,
+   "Pmin": 1.5,
+   "window_halfmax": [
+    6.7,
+    16.0
+   ]
+  },
+  {
+   "series": "Song et al., ACS Appl. Electron. Mater. 2021, 3, 4809|Pt/La:HfO2/LSMO/STO(001)|8.5|800.0",
+   "dopant": "La",
+   "crystal": "epitaxial",
+   "n": 6,
+   "c_opt": 2.0,
+   "unit": "at%",
+   "Pmax": 22.4,
+   "Pmin": 1.5,
+   "window_halfmax": [
+    2.0,
+    5.0
+   ]
+  },
+  {
+   "series": "Song et al., ACS Appl. Electron. Mater. 2021, 3, 4809|Pt/La:HfO2/LSMO/STO/Si(001)|8.5|800.0",
+   "dopant": "La",
+   "crystal": "epitaxial",
+   "n": 6,
+   "c_opt": 2.0,
+   "unit": "at%",
+   "Pmax": 27.0,
+   "Pmin": 9.8,
+   "window_halfmax": [
+    1.0,
+    5.0
+   ]
+  }
+ ],
+ "models": {
+  "log10 Ec": {
+   "n": 112,
+   "studies": 12,
+   "r2": 0.73,
+   "coef": {
+    "const": 0.4313,
+    "epi": 0.3461,
+    "logt": -0.266,
+    "dop_La": 0.0558,
+    "dop_Si": -0.0392,
+    "dop_Y": -0.0124,
+    "dop_Al": 0.1429,
+    "dop_Other": 0.1619,
+    "dep_CSD": 0.2311,
+    "dep_Sputtering": 0.128,
+    "anneal_C": -0.0001
+   },
+   "se": {
+    "const": 0.1675,
+    "epi": 0.034,
+    "logt": 0.0836,
+    "dop_La": 0.0391,
+    "dop_Si": 0.0328,
+    "dop_Y": 0.049,
+    "dop_Al": 0.0522,
+    "dop_Other": 0.0498,
+    "dep_CSD": 0.0407,
+    "dep_Sputtering": 0.0264,
+    "anneal_C": 0.0002
+   },
+   "p": {
+    "const": 0.025819638235190505,
+    "epi": 6.220097649762901e-07,
+    "logt": 0.008712420717679468,
+    "dop_La": 0.18135881485434951,
+    "dop_Si": 0.2568176505938729,
+    "dop_Y": 0.8049862038582882,
+    "dop_Al": 0.01931625772674492,
+    "dop_Other": 0.007725534118517303,
+    "dep_CSD": 0.00014156822357143918,
+    "dep_Sputtering": 0.000516533398167181,
+    "anneal_C": 0.438296542170605
+   },
+   "dR2": {
+    "microstructure (epitaxial)": 0.3298,
+    "thickness (log t)": 0.0934,
+    "dopant": 0.0561,
+    "deposition": 0.031,
+    "anneal T": 0.0037
+   },
+   "dR2_CI": {
+    "microstructure (epitaxial)": [
+     0.003,
+     0.513
+    ],
+    "thickness (log t)": [
+     0.001,
+     0.457
+    ],
+    "dopant": [
+     0.004,
+     0.1
+    ],
+    "deposition": [
+     -0.0,
+     0.051
+    ],
+    "anneal T": [
+     0.0,
+     0.078
+    ]
+   },
+   "boot_top_share": {
+    "microstructure (epitaxial)": 0.75,
+    "thickness (log t)": 0.25,
+    "dopant": 0.0,
+    "deposition": 0.0,
+    "anneal T": 0.0
+   },
+   "n_boot": 500
+  },
+  "Pr": {
+   "n": 169,
+   "studies": 17,
+   "r2": 0.278,
+   "coef": {
+    "const": 24.6385,
+    "epi": -1.0079,
+    "logt": -7.0171,
+    "dop_La": 0.1483,
+    "dop_Si": -7.5353,
+    "dop_Y": 3.2463,
+    "dop_Al": -3.1333,
+    "dop_Other": -2.2071,
+    "dep_CSD": 2.7668,
+    "dep_Sputtering": -6.7558,
+    "anneal_C": -0.0001
+   },
+   "se": {
+    "const": 5.5727,
+    "epi": 2.2159,
+    "logt": 2.9115,
+    "dop_La": 2.3871,
+    "dop_Si": 2.9263,
+    "dop_Y": 1.6461,
+    "dop_Al": 2.2872,
+    "dop_Other": 3.3862,
+    "dep_CSD": 3.3323,
+    "dep_Sputtering": 1.9933,
+    "anneal_C": 0.006
+   },
+   "p": {
+    "const": 0.0004279160362650692,
+    "epi": 0.6553200935357185,
+    "logt": 0.028342096103259478,
+    "dop_La": 0.9512259220629918,
+    "dop_Si": 0.02034545441140906,
+    "dop_Y": 0.0661331496606168,
+    "dop_Al": 0.18962475424520517,
+    "dop_Other": 0.5237757892683975,
+    "dep_CSD": 0.4185817150097117,
+    "dep_Sputtering": 0.0037444101948141332,
+    "anneal_C": 0.9929843422518071
+   },
+   "dR2": {
+    "microstructure (epitaxial)": 0.0015,
+    "thickness (log t)": 0.0388,
+    "dopant": 0.0873,
+    "deposition": 0.0371,
+    "anneal T": 0.0
+   },
+   "dR2_CI": {
+    "microstructure (epitaxial)": [
+     0.0,
+     0.045
+    ],
+    "thickness (log t)": [
+     0.0,
+     0.161
+    ],
+    "dopant": [
+     0.013,
+     0.164
+    ],
+    "deposition": [
+     -0.0,
+     0.113
+    ],
+    "anneal T": [
+     0.0,
+     0.026
+    ]
+   },
+   "boot_top_share": {
+    "microstructure (epitaxial)": 0.0,
+    "thickness (log t)": 0.22,
+    "dopant": 0.62,
+    "deposition": 0.15,
+    "anneal T": 0.0
+   },
+   "n_boot": 500
+  }
+ },
+ "sensitivity": {
+  "Ec_ratio_all": 1.86,
+  "Ec_ratio_no_digitized": 1.42,
+  "Ec_ratio_only_HZO": 1.87,
+  "Ec_ratio_t_5_20nm": 2.05,
+  "Ec_ratio_leave_one_study_out": [
+   1.77,
+   2.15
+  ],
+  "n_epi_digitized_share": 0.89,
+  "study_level_Ec_median": {
+   "epitaxial": [
+    2.44,
+    8
+   ],
+   "polycrystalline": [
+    1.29,
+    9
+   ]
+  },
+  "MW_study_level": 0.0017526388830146034,
+  "series_slope_epi_mean": [
+   -0.46,
+   0.16,
+   6
+  ],
+  "series_slope_poly": [
+   -0.162,
+   -0.534,
+   -0.352,
+   -0.052
+  ]
+ },
+ "Pr_Ec_rho_epitaxial": [
+  0.48,
+  9.884852936992172e-05,
+  61
+ ],
+ "Pr_Ec_rho_polycrystalline": [
+  -0.05,
+  0.6662339937762954,
+  72
+ ]
+}
